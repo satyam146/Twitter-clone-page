@@ -1,0 +1,186 @@
+*{
+     margin: 0;
+     padding: 0;
+    font-family: 'Cabin',
+    sans-serif;
+}
+
+body{
+         background-color: #e7ecf0;
+}
+.navbar {
+     overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 0 20px;
+      background-color: white;
+}
+
+#tw{
+     color:#4bb3f2;
+     font-size: 30px;
+     margin-left: 5em;
+}
+
+/* Navbar links */
+.navbar a {
+     float: left;
+     display: block;
+     color: #6c757c;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+}
+
+
+
+.button {
+     background-color: #4bb3f2;
+     border: none;
+     color: white;
+     padding: 5px 27px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+
+     cursor: pointer;
+     border-radius: 16px;
+     font-size: 22px;
+     font-weight: 600;
+}
+
+.button:hover {
+     background-color: #4bb3f2;
+}
+
+
+#mainbody{
+     background-color: #e7ecf0;
+     display: flex;
+}
+
+#content,
+#follow,
+#profile{
+     background-color: white;
+}
+
+#image{
+         height: 4em;
+         border-radius: 50%;
+}
+.info{
+     color: #4bb3f2;
+}
+
+#tweet, #following ,#followers{
+     color: #6c757c;
+}
+
+#common-dp
+{
+     height: 3em;
+     border-radius: 50%;
+}
+
+#content1{
+     display: flex;
+}
+
+.user{
+     font-size: 20px;
+     font-weight: bolder;
+}
+
+.username{
+     color: #6c757c;
+}
+
+.hr{
+     border-top: 1px solid #6c757c;
+     margin: 22px 0;
+}
+
+.follow {
+     background-color: white;
+     border-color: #4bb3f2;
+     color: #4bb3f2;
+     padding: 5px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 15px 2px;
+     cursor: pointer;
+     border-radius: 16px;
+}
+
+.follow:hover {
+     background-color: #4bb3f2;
+     color: white;
+}
+
+
+#tweet,#following,#followers
+{
+     padding-left: 33px;
+}
+
+.button1{
+       background-color: white;
+       border: none;
+       color: #6c757c;
+       padding: 5px 9px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+
+       cursor: pointer;
+       border-radius: 16px;
+       font-size: 18px;
+       font-weight: 600;
+}
+
+.button1:hover {
+       background-color: #4bb3f2;
+       color: white;
+}
+
+.user1{
+     font-size: 15px;
+}
+.username {
+      font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+     .navbar {
+          overflow: hidden;
+          position: fixed;
+          top: 0;
+          width: 100%;
+            padding: 0 20px;
+            background-color: white;
+     }
+     .navbar a {
+          float: left;
+          display: block;
+          color: #6c757c;
+          text-align: center;
+          
+          text-decoration: none;
+     }
+     #tw {
+          color: #4bb3f2;
+          font-size: 30px;
+          margin-left:0;
+     }
+#mainbody {
+     background-color: #e7ecf0;
+     display: flex;
+}
+    .button{
+         margin-left: 15em;
+    }
+}
